@@ -11,8 +11,7 @@ main::after {
     min-height: 100vh;
     width: 80vw;
 
-    background: linear-gradient(-233deg, #000 40%, rgba(0,0,0,0) 65%);
-
+    background: linear-gradient(-233deg, #000 35%, rgba(0,0,0,0) 65%);
 }
 
 main .personagem {
@@ -70,7 +69,6 @@ main .personagem .imagem {
     position: fixed;
     top: 0;
     right: 0;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -96,3 +94,8 @@ main .personagem .imagem {
     transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
 }
+
+.botao-logo {
+    cursor: pointer;
+}
+
